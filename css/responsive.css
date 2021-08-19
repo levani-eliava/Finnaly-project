@@ -1,0 +1,335 @@
+
+@media (max-width:1024px){
+      
+      .navigation{
+             display: block;
+             
+      }
+      .Text {
+         display: none;
+      }
+      
+   .logo{
+	margin: 5px 110px 0 40px;
+   }
+   .slidertitle{
+      display: none;
+   }
+   .section4 {
+      height: 1000px;
+   } 
+   .section4 .box4{
+      justify-content: left;
+   }
+
+   .icon,.inp1, button{
+      display: none;
+   }
+   .section4 a{
+     display: block;
+     margin-top: 5px;
+     border: 1px solid;
+     width: 100px;
+     height: 35px;
+     text-align: center;
+     padding: 5px;
+     margin-left: 35%;
+     font-size: 18px;
+     color: rgb(253, 255, 253);
+     background-color: green;
+  }
+
+}
+
+/* max-width 768px */
+
+@media (max-width:768px){
+   .bg-image{
+      height: 768px; 
+      background-position: center;
+      
+   }
+   .menu{
+      display: block;
+      position: absolute;
+      top: 35px;
+      left: 42rem;
+   }
+   
+   .navigation{
+      position: absolute;
+      top: 25px;
+      left: 2rem;
+      display: none;
+      
+      
+}
+header .parentli .nav-li .a-link{
+   color: rgb(255, 136, 1);
+   
+   
+}
+
+  .logo{
+	  display: none;
+   }
+
+   header{
+      padding: 0;
+   }
+
+.active{
+   display: block;
+   
+}
+.slidertitle{
+   display: none;
+}
+
+.section2 .box{
+  display: flex;
+  flex-direction: column;
+}
+.section2{
+   height: 1000px;
+}
+.section3 .box3{
+   display: flex;
+   flex-direction: column;
+   margin-left: -10px;
+ }
+ .section3{
+    height: 1100px;
+ }
+ .section4{
+    height: 1330px;
+ }
+ .section4 .box4{
+    justify-content: center;
+ }
+ .icon,.inp1, button{
+    display: none;
+ }
+ .section4 a{
+   display: block;
+   margin-top: 5px;
+   border: 1px solid;
+   width: 100px;
+   height: 35px;
+   text-align: center;
+   padding: 5px;
+   margin-left: 35%;
+   font-size: 18px;
+   color: rgb(253, 255, 253);
+   background-color: green;
+}
+.foo{
+   display: none;
+}
+
+
+}
+
+/*  max-width 480px */
+
+@media (max-width:480px){
+    .menu{
+      display: block;
+      position: absolute;
+      top: 35px;
+      left: 26rem;
+   } 
+   .navigation{
+      position: absolute;
+      top: 50px;
+      left: 1rem;
+   }
+   .navigation .parentli{
+      display: flex;
+      flex-direction: column;
+   }
+   .navigation .parentli{
+      background-color: rgba(0, 0, 0, 0.678);
+      box-shadow: 1px 1px 20px black;
+      height: 200px;
+      width: 400px;
+      margin: -20px auto;
+      
+   }
+   header .parentli .nav-li .a-link{
+      font-size: 18px;
+      
+      
+      }
+      .section2 .left-block,.section3 .left-block3,.section3 .right-block3{
+         width: 475px;
+      }
+      .section3 .right-block3{
+         margin: 0;
+      }
+      
+      .section2 .right-block,.section2 .right-block .bigtext, p{
+         width: 465px;
+         font-size: 18px;
+         margin: 0 auto;
+      }
+       .section4 {
+         height: 2600px;
+      } 
+       .box4   .container{
+         margin-left: 0 auto;
+          width: 480px; 
+       }
+       .icon,.inp1, button{
+         display: none;
+      }
+      .section4 a{
+        display: block;
+        margin-top: 5px;
+        border: 1px solid;
+   width: 100px;
+   height: 35px;
+   text-align: center;
+   padding: 5px;
+   margin-left: 35%;
+   font-size: 18px;
+   color: rgb(253, 255, 253);
+   background-color: green;
+     }
+     .section5 .conteiner label{
+        margin-left: 140px;
+     }  
+     .section5 .conteiner .inp2{
+        margin-left: 140px;
+     }
+     .section5 .conteiner .loginbtn  {
+        margin-left: 140px;
+     }
+     .section5 .conteiner .loginReg{
+        margin: 140px;
+     }
+     .foo{
+      display: none;
+   }
+   #title3, #title4,  p{
+      font-size: 20px;
+   }
+   #title8{
+      font-size: 40px;
+   }
+   .loginReg2{
+      margin-left: 140px;
+      font-size: 12px;
+   }
+   }
+/*  max-width 320px */
+
+@media (max-width:320px){
+   .menu{
+     display: block;
+     position: absolute;
+     top: 35px;
+     left: 17rem;
+  } 
+  .navigation{
+     position: absolute;
+     top: 50px;
+     left: 1rem;
+  }
+  .navigation .parentli{
+     display: flex;
+     flex-direction: column;
+  }
+  .navigation .parentli{
+     background-color: rgba(0, 0, 0, 0.685);
+     height: 200px;
+     width: 320px;
+     position: absolute;
+     left: -15px;
+     top: 15px;
+     margin: 0 auto;
+  }
+  header .parentli .nav-li .a-link{
+     font-size: 18px;
+     }
+     .icon,.inp1, button{
+      display: none;
+   }
+   .section4 a{
+     display: block;
+     margin-top: 5px;
+     border: 1px solid;
+   width: 100px;
+   height: 35px;
+   text-align: center;
+   padding: 5px;
+   margin-left: 35%;
+   font-size: 18px;
+   color: rgb(253, 255, 253);
+   background-color: green;
+  }
+
+.section2 .left-block,.section3 .left-block3,.section3 .right-block3{
+   width: 320px;
+}
+.section3 .right-block3{
+   margin: 0 auto;
+   
+}
+
+.section2 .right-block,.section2 .right-block .bigtext, p{
+   width: 319px;
+   font-size: 10px;
+   
+   margin: 0 auto;
+}
+.box4   .container{
+   margin-left: 0 auto;
+    
+ }
+
+ .section3 .btn{
+    margin-left: 22%;
+ }
+ .section3 .right-block3 .bigtext3{
+       font-size: 25px;
+}
+.section2 .right-block p{
+   font-size: 15px;
+   text-align: center;
+}
+.bg-image{
+   height: 400px;
+   background-position: center;
+}
+.section5 .conteiner label{
+   margin-left: 50px;
+}
+.section5 .conteiner .inp2{
+   margin-left: 50px;
+}
+.section5 .conteiner .loginbtn{
+   margin-left: 50px;
+}
+.section5 .conteiner .loginReg {
+   margin-left: 50px;
+}
+.loginReg2{
+   margin-left: 50px;
+   font-size: 12px;
+}
+.conteiner .loginReg{
+   font-size: 12px;
+   color: black;
+}
+.foo{
+   display: none;
+}
+#title3, #title4,  p{
+   font-size: 18px;
+}
+#title8{
+   font-size: 30px;
+}
+}
+
