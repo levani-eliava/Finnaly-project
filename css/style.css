@@ -465,7 +465,7 @@ div#slider figure {
  .section5 .conteiner{
   max-width: 300px;
   width: 100%;
-  object-fit: cover;
+/*   object-fit: cover; */
   height: 300px;
   display: flex;
   align-items: center;
